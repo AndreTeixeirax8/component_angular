@@ -4,7 +4,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
   selector: 'app-card',
   templateUrl: './card.component.html',
   styleUrl: './card.component.scss',
-  encapsulation: ViewEncapsulation.None, //remove o encapsulation com isso podemos criar classes globais no css
+  //encapsulation: ViewEncapsulation.None, //remove o encapsulation com isso podemos criar classes globais no css
 })
 export class CardComponent {
   plano = {
